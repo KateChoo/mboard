@@ -11,6 +11,7 @@
 }
 
 button.pressHint{
+  height: 5rem;
   background: #A53869;
   animation: 1s pressHint infinite;
 }
