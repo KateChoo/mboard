@@ -1,0 +1,21 @@
+.container,
+.message{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.message{
+    margin: 3rem auto;
+    padding: 2rem auto;
+}
+
+button.pressHint{
+  background: #A53869;
+  animation: 1s pressHint infinite;
+}
+@keyframes pressHint{
+  0%{opacity:1}
+  50%{opacity:0.7}
+  100%{opacity:1}
+}
